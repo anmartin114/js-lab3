@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css?family=Maven+Pro&display=swap");
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("addressbook-pt2.jpg");
+  background-size: cover;
+  font-family: "Maven Pro";
+  font-weight: bold;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+  margin-top: 10px;
+}
+
+.main {
+  background-color: rgb(179, 178, 176, 0.6);
+  margin: auto;
+  width: 55%;
+  padding: 5px 20px;
+  border-radius: 5px;
+}
+
+input {
+  width: 100%;
+  border-radius: 5px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: none;
+  margin-bottom: 10px;
+}
+
+input,
+label {
+  display: block;
+}
+
+.add-button {
+  display: block;
+  width: 100%;
+  margin: 30px 0px 15px;
+  background-color: #fff;
+}
+
+.card {
+  background-color: rgb(179, 178, 176, 0.6);
+  border-radius: 5px;
+  width: 30%;
+  margin: 20px auto;
+  padding: 5px;
+}
+
+.card p {
+  margin: 5px;
+}
+
+.fa {
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 50%;
+  position: absolute;
+  left: 790px;
+}
